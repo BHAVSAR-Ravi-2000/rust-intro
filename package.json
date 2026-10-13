@@ -1,0 +1,15 @@
+{
+  "name": "rust-entrainement",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Plateforme locale d'entraînement aux fondamentaux de Rust",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "verifier-contenu": "node scripts/verifier-contenu.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
